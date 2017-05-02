@@ -1,0 +1,10 @@
+{
+	"type": "record",
+	"name": "samplerecord",
+	"namespace": "com.ring",
+	"fields" : [
+		{"name": "string", "type": "string"},
+		{"name": "int", "type": "int"},
+		{"name": "boolean", "type": "boolean"}
+	]
+}

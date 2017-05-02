@@ -1,0 +1,21 @@
+version: "2"
+services:
+  base:
+    build: .
+    image: s3-writer-base
+    volumes:
+      - .:/root
+
+  build:
+    container_name: s3_writer_build
+    image: s3-writer-base
+    command: ["sbt", "compile"]
+    volumes_from:
+      - base
+
+  s3_writer:
+    container_name: s3_writer
+    image: s3-writer-base
+    command: ["sbt", "run test-app test-stream schema.sample.json test-bucket"]
+    volumes_from:
+      - base

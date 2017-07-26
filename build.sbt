@@ -1,8 +1,8 @@
-import Dependencies._
+//uimport Dependencies._
 
 scalacOptions := Seq("-unchecked", "-deprecation")
 //mainClass in assembly := Some("com.ring.testKinesis.consumer.TicketReader")
-assemblyJarName in assembly := "sample-kinesis-assembly-0.1.0"
+assemblyJarName in assembly := "kinesis-dynamodb-writer-assembly-0.1.0"
 
 lazy val root = (project in file(".")).
   settings(
@@ -11,10 +11,11 @@ lazy val root = (project in file(".")).
       scalaVersion := "2.12.1",
       version      := "0.1.0-SNAPSHOT"
     )),
-    name := "sample-kinesis",
+    name := "kinesis-dynamodb-writer",
     libraryDependencies ++= Seq(
-      scalaTest % Test,
-      "com.amazonaws" % "amazon-kinesis-client" % "1.6.3",
+      //scalaTest % Test,
+      "com.amazonaws" % "amazon-kinesis-client" % "1.7.6",
+      "com.amazonaws" % "aws-java-sdk" % "1.11.166",
       "org.apache.avro" % "avro" % "1.8.1",
       "org.apache.parquet" % "parquet-avro" % "1.8.1",
       "org.apache.hadoop" % "hadoop-common" % "2.8.0"

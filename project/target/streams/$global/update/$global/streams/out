@@ -22,7 +22,7 @@
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.4/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.4/ivys/ivy.xml.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.14.4!ivy.xml(ivy.original) (2369ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.14.4!ivy.xml(ivy.original) (1486ms)[0m
 [0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.14.4 in sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.4->org.scalactic#scalactic_2.10;3.0.1 [compile->default(compile)][0m
@@ -49,7 +49,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;3.0.1!scalactic_2.10.pom(pom.original) (360ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;3.0.1!scalactic_2.10.pom(pom.original) (194ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/3.0.1/bundles/scalactic_2.10.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/3.0.1/bundles/scalactic_2.10.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/3.0.1/bundles/scalactic_2.10.jar[0m
@@ -168,7 +168,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.pantsbuild#jarjar;1.6.3!jarjar.pom(pom.original) (252ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.pantsbuild#jarjar;1.6.3!jarjar.pom(pom.original) (197ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.pantsbuild/jarjar/1.6.3/jars/jarjar.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.pantsbuild/jarjar/1.6.3/jars/jarjar.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.pantsbuild/jarjar/1.6.3/jars/jarjar.jar[0m
@@ -208,7 +208,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.pom(pom.original) (194ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.pom(pom.original) (199ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.ant#ant-parent;1.9.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.ant#ant-parent;1.9.6 ...[0m
@@ -228,7 +228,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant-parent;1.9.6!ant-parent.pom(pom.original) (254ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant-parent;1.9.6!ant-parent.pom(pom.original) (241ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar[0m
@@ -274,7 +274,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.pom(pom.original) (180ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.pom(pom.original) (174ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.ant#ant-parent;1.9.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.ant#ant-parent;1.9.6[0m
@@ -318,7 +318,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.pom(pom.original) (261ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.pom(pom.original) (150ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
@@ -338,7 +338,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven;3.3.3!maven.pom(pom.original) (191ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven;3.3.3!maven.pom(pom.original) (199ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven-parent;26 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven-parent;26 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven-parent;26 ...[0m
@@ -358,7 +358,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-parent;26!maven-parent.pom(pom.original) (197ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-parent;26!maven-parent.pom(pom.original) (209ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;16 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
@@ -378,7 +378,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (226ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (153ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
@@ -442,7 +442,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.pom(pom.original) (227ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.pom(pom.original) (150ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.maven#maven;3.3.3[0m
@@ -482,7 +482,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-utils;3.0.20!plexus-utils.pom(pom.original) (255ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-utils;3.0.20!plexus-utils.pom(pom.original) (150ms)[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus;3.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus;3.3.1 {}[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus;3.3.1 ...[0m
@@ -502,7 +502,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus;3.3.1!plexus.pom(pom.original) (243ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus;3.3.1!plexus.pom(pom.original) (150ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.spice#spice-parent;17 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.spice#spice-parent;17 {}[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.spice#spice-parent;17 ...[0m
@@ -522,7 +522,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.sonatype.spice#spice-parent;17!spice-parent.pom(pom.original) (178ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.sonatype.spice#spice-parent;17!spice-parent.pom(pom.original) (155ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.forge#forge-parent;10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.forge#forge-parent;10 {}[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.forge#forge-parent;10 ...[0m
@@ -542,7 +542,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.sonatype.forge#forge-parent;10!forge-parent.pom(pom.original) (214ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.sonatype.forge#forge-parent;10!forge-parent.pom(pom.original) (148ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar[0m
@@ -606,7 +606,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.pom(pom.original) (166ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.pom(pom.original) (147ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.maven#maven;3.3.3[0m
@@ -648,7 +648,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0!org.eclipse.sisu.plexus.pom(pom.original) (242ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0!org.eclipse.sisu.plexus.pom(pom.original) (152ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.sisu#sisu-plexus;0.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.sisu#sisu-plexus;0.3.0 {}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.sisu#sisu-plexus;0.3.0 ...[0m
@@ -668,7 +668,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#sisu-plexus;0.3.0!sisu-plexus.pom(pom.original) (163ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#sisu-plexus;0.3.0!sisu-plexus.pom(pom.original) (145ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9[0m
@@ -717,7 +717,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] javax.enterprise#cdi-api;1.0!cdi-api.pom(pom.original) (267ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] javax.enterprise#cdi-api;1.0!cdi-api.pom(pom.original) (195ms)[0m
 [0m[[0minfo[0m] [0mResolving org.jboss.weld#weld-api-parent;1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jboss.weld#weld-api-parent;1.0 {}[0m
 [0m[[0minfo[0m] [0mResolving org.jboss.weld#weld-api-parent;1.0 ...[0m
@@ -737,7 +737,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.weld#weld-api-parent;1.0!weld-api-parent.pom(pom.original) (165ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.weld#weld-api-parent;1.0!weld-api-parent.pom(pom.original) (152ms)[0m
 [0m[[0minfo[0m] [0mResolving org.jboss.weld#weld-api-bom;1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jboss.weld#weld-api-bom;1.0 {}[0m
 [0m[[0minfo[0m] [0mResolving org.jboss.weld#weld-api-bom;1.0 ...[0m
@@ -757,7 +757,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.weld#weld-api-bom;1.0!weld-api-bom.pom(pom.original) (228ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.weld#weld-api-bom;1.0!weld-api-bom.pom(pom.original) (147ms)[0m
 [0m[[0minfo[0m] [0mResolving org.jboss.weld#weld-parent;6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jboss.weld#weld-parent;6 {}[0m
 [0m[[0minfo[0m] [0mResolving org.jboss.weld#weld-parent;6 ...[0m
@@ -777,7 +777,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.weld#weld-parent;6!weld-parent.pom(pom.original) (246ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.weld#weld-parent;6!weld-parent.pom(pom.original) (150ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar[0m
@@ -843,7 +843,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] javax.annotation#jsr250-api;1.0!jsr250-api.pom(pom.original) (264ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] javax.annotation#jsr250-api;1.0!jsr250-api.pom(pom.original) (194ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar[0m
@@ -881,7 +881,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.pom(pom.original) (338ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.pom(pom.original) (192ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.inject/javax.inject/1/jars/javax.inject.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.inject/javax.inject/1/jars/javax.inject.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.inject/javax.inject/1/jars/javax.inject.jar[0m
@@ -918,7 +918,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0!org.eclipse.sisu.inject.pom(pom.original) (229ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0!org.eclipse.sisu.inject.pom(pom.original) (195ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.sisu#sisu-inject;0.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.sisu#sisu-inject;0.3.0 {}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.sisu#sisu-inject;0.3.0 ...[0m
@@ -938,7 +938,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#sisu-inject;0.3.0!sisu-inject.pom(pom.original) (192ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#sisu-inject;0.3.0!sisu-inject.pom(pom.original) (150ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9[0m
@@ -987,7 +987,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-component-annotations;1.5.5!plexus-component-annotations.pom(pom.original) (274ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-component-annotations;1.5.5!plexus-component-annotations.pom(pom.original) (150ms)[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-containers;1.5.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus-containers;1.5.5 {}[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus-containers;1.5.5 ...[0m
@@ -1007,7 +1007,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-containers;1.5.5!plexus-containers.pom(pom.original) (226ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-containers;1.5.5!plexus-containers.pom(pom.original) (147ms)[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus;2.0.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus;2.0.7 {}[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus;2.0.7 ...[0m
@@ -1027,7 +1027,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus;2.0.7!plexus.pom(pom.original) (175ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus;2.0.7!plexus.pom(pom.original) (142ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar[0m
@@ -1082,7 +1082,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-classworlds;2.5.2!plexus-classworlds.pom(pom.original) (217ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-classworlds;2.5.2!plexus-classworlds.pom(pom.original) (186ms)[0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.plexus#plexus;3.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus;3.3.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.plexus#plexus;3.3.1[0m
@@ -1157,7 +1157,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm;5.2!asm.pom(pom.original) (161ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm;5.2!asm.pom(pom.original) (189ms)[0m
 [0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.2 {}[0m
 [0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;5.2 ...[0m
@@ -1177,7 +1177,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.2/asm-parent-5.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.2/asm-parent-5.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.2/asm-parent-5.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-parent;5.2!asm-parent.pom(pom.original) (205ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-parent;5.2!asm-parent.pom(pom.original) (144ms)[0m
 [0m[[0minfo[0m] [0mResolving org.ow2#ow2;1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2#ow2;1.3 {}[0m
 [0m[[0minfo[0m] [0mResolving org.ow2#ow2;1.3 ...[0m
@@ -1197,7 +1197,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2#ow2;1.3!ow2.pom(pom.original) (191ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2#ow2;1.3!ow2.pom(pom.original) (145ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2/ow2/1.3/jars/ow2.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2/ow2/1.3/jars/ow2.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2/ow2/1.3/jars/ow2.jar[0m
@@ -1250,7 +1250,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.2!asm-commons.pom(pom.original) (202ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.2!asm-commons.pom(pom.original) (193ms)[0m
 [0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.2[0m
@@ -1287,7 +1287,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.2!asm-tree.pom(pom.original) (198ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.2!asm-tree.pom(pom.original) (201ms)[0m
 [0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.2[0m
@@ -9303,31 +9303,31 @@
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.4/jars/sbt-assembly.jar[0m
 [0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.4/jars/sbt-assembly.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.4/jars/sbt-assembly.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.14.4!sbt-assembly.jar (3683ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.14.4!sbt-assembly.jar (3415ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/3.0.1/scalactic_2.10-3.0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;3.0.1!scalactic_2.10.jar(bundle) (4760ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalactic#scalactic_2.10;3.0.1!scalactic_2.10.jar(bundle) (1321ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.3/jarjar-1.6.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.pantsbuild#jarjar;1.6.3!jarjar.jar (1009ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.pantsbuild#jarjar;1.6.3!jarjar.jar (181ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.2/asm-5.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm;5.2!asm.jar (616ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm;5.2!asm.jar (194ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.2/asm-commons-5.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.2!asm-commons.jar (245ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.2!asm-commons.jar (209ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar[0m
@@ -9335,85 +9335,85 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.jar (18229ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.jar (594ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.jar (274ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.jar (194ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar (323ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar (148ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.jar (1408ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.jar (170ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.jar (292ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.jar (151ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0!org.eclipse.sisu.plexus.jar(eclipse-plugin) (1124ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0!org.eclipse.sisu.plexus.jar(eclipse-plugin) (167ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-utils;3.0.20!plexus-utils.jar (1388ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-utils;3.0.20!plexus-utils.jar (176ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.enterprise#cdi-api;1.0!cdi-api.jar (335ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.enterprise#cdi-api;1.0!cdi-api.jar (153ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0!org.eclipse.sisu.inject.jar(eclipse-plugin) (2754ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0!org.eclipse.sisu.inject.jar(eclipse-plugin) (242ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-component-annotations;1.5.5!plexus-component-annotations.jar (301ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-component-annotations;1.5.5!plexus-component-annotations.jar (147ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-classworlds;2.5.2!plexus-classworlds.jar(bundle) (720ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.plexus#plexus-classworlds;2.5.2!plexus-classworlds.jar(bundle) (147ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.annotation#jsr250-api;1.0!jsr250-api.jar (239ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.annotation#jsr250-api;1.0!jsr250-api.jar (140ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (167ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (146ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.2!asm-tree.jar (257ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.2!asm-tree.jar (180ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.13!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.13.13!main.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.13!compiler-interface.jar[0m
@@ -9466,7 +9466,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 79512ms :: artifacts dl 38517ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 66714ms :: artifacts dl 8399ms[0m
 [0m[[0mdebug[0m] [0m	report for default#root-build;0.1-SNAPSHOT compile produced in /root/project/target/resolution-cache/reports/default-root-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#root-build;0.1-SNAPSHOT runtime produced in /root/project/target/resolution-cache/reports/default-root-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#root-build;0.1-SNAPSHOT test produced in /root/project/target/resolution-cache/reports/default-root-build-test.xml[0m
@@ -9480,5 +9480,5 @@
 [0m[[0mdebug[0m] [0m	report for default#root-build;0.1-SNAPSHOT docs produced in /root/project/target/resolution-cache/reports/default-root-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#root-build;0.1-SNAPSHOT pom produced in /root/project/target/resolution-cache/reports/default-root-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#root-build;0.1-SNAPSHOT scala-tool produced in /root/project/target/resolution-cache/reports/default-root-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (79512ms resolve - 38517ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (66714ms resolve - 8399ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

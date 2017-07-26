@@ -2,20 +2,46 @@ version: "2"
 services:
   base:
     build: .
-    image: s3-writer-base
+    image: dynamodb-writer-base
     volumes:
       - .:/root
 
   build:
-    container_name: s3_writer_build
-    image: s3-writer-base
+    container_name: dynamodbdwriter-build
+    image: dynamodb-writer-base
     command: ["sbt", "compile"]
     volumes_from:
       - base
 
-  s3_writer:
-    container_name: s3_writer
-    image: s3-writer-base
-    command: ["sbt", "run test-app test-stream schema.sample.json test-bucket"]
+  dynamodb_writer:
+    container_name: dynamodb_writer
+    image: dynamodb-writer-base
+    command: ["sbt", "run test-app test-stream device_service_status_reports 3"]
+    environment:
+      - AWS_ACCESS_KEY_ID=RING_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY=RING_SECRET_ACCESS_KEY
+      - AWS_REGION=us-east-1
+      - AWS_CBOR_DISABLE=1
+      - DYNAMODB_URL=http://dynamodb:8000
+      - KINESIS_URL=http://kinesis:4567
+    links:
+      - kinesis
+      - dynamodb
     volumes_from:
       - base
+
+  dynamodb:
+    container_name: dynamodb-writer-dynamodb
+    image: doorbot/dynamodb
+    command: -port 8000
+    environment:
+      - _JAVA_OPTIONS="-Xmx1024m"
+    ports:
+      - "8000:8000"
+
+  kinesis:
+    container_name: dynamodb-writer-kinesis
+    image: vsouza/kinesis-local
+    command: -port 4567
+    ports:
+      - "4567:4567"

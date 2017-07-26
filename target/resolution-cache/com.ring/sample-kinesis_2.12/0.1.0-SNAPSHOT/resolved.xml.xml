@@ -4,7 +4,7 @@
 		module="sample-kinesis_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20170502220938"
+		publication="20170724223459"
 	>
 		<description>
 		sample-kinesis
@@ -34,8 +34,8 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="test->default(compile)"/>
-		<dependency org="com.amazonaws" name="amazon-kinesis-client" rev="1.6.3" conf="compile->default(compile)"/>
+		<dependency org="com.amazonaws" name="amazon-kinesis-client" rev="1.7.6" conf="compile->default(compile)"/>
+		<dependency org="com.amazonaws" name="aws-java-sdk" rev="1.11.166" conf="compile->default(compile)"/>
 		<dependency org="org.apache.avro" name="avro" rev="1.8.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.parquet" name="parquet-avro" rev="1.8.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.8.0" conf="compile->default(compile)"/>
